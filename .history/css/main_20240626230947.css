@@ -1,0 +1,6 @@
+/*imagen de fondo*/
+.bg-cover{
+	background:url(..OIP.jpg);
+	height: 300px;
+	background-size:cover;
+	}

@@ -1,0 +1,12 @@
+// Definición de clase base
+// -------------------------
+
+.@{fa-css-prefix} {
+  display: inline-block;
+  font: normal normal normal @fa-font-size-base/@fa-line-height-base FontAwesome; // Declaración de acortamiento de fuente
+  font-size: inherit; // No se puede heredar el tamaño de fuente en la línea anterior, por lo que es necesario anularlo
+  text-rendering: auto; // La optimización de la legibilidad altera las cosas #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
